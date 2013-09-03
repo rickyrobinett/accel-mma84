@@ -1,3 +1,3 @@
-# npm install hardware -g
+# npm install accel-mma84
 
 Wait for it...
