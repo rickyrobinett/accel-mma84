@@ -3,7 +3,7 @@
 Install:
 
 ```
-npm install accel-mmq84
+npm install accel-mma84
 ```
 
 Import:
