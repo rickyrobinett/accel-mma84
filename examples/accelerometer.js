@@ -1,5 +1,7 @@
-var hardware = require('hardware');
-var accel = require('../').connect(hardware.firmata('/dev/tty.usbmodem1411'));
+// var hardware = require('hardware');
+var tessel = require('tessel');
+console.log("Connecting to acceleroemter on port bank A");
+var accel = require('../').connect(tessel.port("A"));
 
 // Initialize the accelerometer.
 accel.on('connected', function () {
