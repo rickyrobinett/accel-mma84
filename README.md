@@ -9,14 +9,16 @@ npm install accel-mma84
 Import:
 
 ```
-var accel = require('accel-mma84').connect(myhardwareapi);
+var myHardware = tessel.port('A');
+var accel = require('accel-mma84').connect(myHardware);
 ```
 
 Functions:
 
-*  **`accel`.initialize()**
+*  **`accel`.on('connected', callback)**
 
 *  **`accel`.getAcceleration(callback(err, xyz))**
+
 
 ## License
 
